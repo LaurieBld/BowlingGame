@@ -5,7 +5,7 @@ using UnityEngine;
 public class BowlingBall : MonoBehaviour
 {
 
-    public float force;
+    [SerializeField] private float force;
 
     // Initialization
 
