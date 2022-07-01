@@ -41,7 +41,8 @@ public class BowlingBall : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.RightArrow))
             GetComponent<Rigidbody>().AddForce(new Vector3(-1, 0, 0), ForceMode.Impulse);
 
-        if (Input.GetKeyUp(KeyCode.R))
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, -1), ForceMode.Impulse);
 
         {
             var pins = GameObject.FindGameObjectsWithTag("Pin");
