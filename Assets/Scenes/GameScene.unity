@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 525562515}
   - component: {fileID: 525562514}
   - component: {fileID: 525562513}
+  - component: {fileID: 525562519}
   m_Layer: 0
   m_Name: BowlingBall
   m_TagString: Ball
@@ -445,6 +446,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &525562519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525562512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8e63ac17e048e48ad3423baa30be6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 1000
 --- !u!1001 &623072948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -751,6 +765,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0022999723, y: 0.0023354527, z: 0.007777653}
   m_Center: {x: 0, y: -9.886575e-10, z: -0.00023423285}
+--- !u!114 &1076466508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076466502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8e63ac17e048e48ad3423baa30be6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 0
 --- !u!1001 &1803586253
 PrefabInstance:
   m_ObjectHideFlags: 0
