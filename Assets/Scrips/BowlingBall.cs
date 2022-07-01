@@ -47,7 +47,7 @@ public class BowlingBall : MonoBehaviour
             var pins = GameObject.FindGameObjectsWithTag("Pin");
 
             for (int i = 0; 
-                i < pins.Lenght;
+                i < pins.Length;
                 i++)
             {
                 //collision.gameObject.transform.parent.gameObject.tag
